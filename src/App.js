@@ -89,7 +89,7 @@ class App extends Component {
         <hr></hr>  
         {!this.state.isAddProd && <Button variant="primary" onClick={() => this.onCreate()}>Ajouter produit</Button>}  
         <br></br>  
-        {!this.state.isAddProd && <ProductList editBook={this.editProduct} />}  
+        {!this.state.isAddProd && <ProductList editProduct={this.editProduct} />}  
         {productForm}  
         </Container>  
       </div>  
